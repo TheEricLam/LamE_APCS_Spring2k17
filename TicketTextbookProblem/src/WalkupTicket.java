@@ -15,8 +15,8 @@ public class WalkupTicket extends Ticket{
 	
 	// overriding toString method
 	public String toString() {
-		String walkUp = "Number: " + ticketnumber + ", Price : " + getPrice();
-		return walkUp;
+		return "Number: " + ticketnumber + ", Price : " + getPrice();
+		
 	}
 	
 }

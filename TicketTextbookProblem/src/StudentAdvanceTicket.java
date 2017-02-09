@@ -18,5 +18,9 @@ public class StudentAdvanceTicket extends AdvanceTicket {
 			ticketPrice=20;
 		}
 	}
+	// gets ticket price
+		public double getPrice() {
+			return ticketPrice;
+		}
 	
 }
