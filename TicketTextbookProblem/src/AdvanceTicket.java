@@ -19,8 +19,12 @@ public class AdvanceTicket extends Ticket {
 		}
 	}
 	
-	// gets the price of the ticket
+	// gets ticket price
 	public double getPrice() {
-
+		return ticketPrice;
+	}
+		
+	public String toString(){
+		return "Number: " + ticketnumber + ", Price : " + getPrice();
 	}
 }
