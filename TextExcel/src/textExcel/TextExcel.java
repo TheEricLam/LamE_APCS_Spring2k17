@@ -10,6 +10,8 @@ public class TextExcel
 
 	public static void main(String[] args)
 	{
-	    // Add your command loop here
+		while(!(input.equals("quit"))){ //user input
+			//do code
+		}
 	}
 }
