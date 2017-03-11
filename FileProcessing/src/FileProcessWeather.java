@@ -13,4 +13,4 @@ public class FileProcessWeather {
 			currentTemp = nextTemp; 
 		}
 	}
-}
+}x
