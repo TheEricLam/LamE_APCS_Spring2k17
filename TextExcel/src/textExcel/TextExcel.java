@@ -15,11 +15,10 @@ public class TextExcel
 	    Spreadsheet spreadsheetExcel = new Spreadsheet(); //creates new spreadsheet
 	    String input = console.nextLine();
 	    	
-	    while(input.equals("quit")){  // loop until user types quit
+	    while(!(input.equals("quit"))){  // loop until user types quit
 			String answer = spreadsheetExcel.processCommand(input);
 			System.out.println(answer);
+			input = console.nextLine();
 		}
 	}
 }
-		
-

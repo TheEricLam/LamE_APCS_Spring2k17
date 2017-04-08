@@ -7,6 +7,10 @@ public class TextCell implements Cell {
 	public TextCell(String strValue){
 		values = strValue;
 	}
+	
+	public TextCell(){
+		
+	}
 	@Override
 	public String abbreviatedCellText() {
 		// TODO Auto-generated method stub
@@ -16,7 +20,13 @@ public class TextCell implements Cell {
 	@Override
 	public String fullCellText() {
 		// TODO Auto-generated method stub
-		return "";
+		return values;
+	}
+	
+	public String getCellValue(Location location){
+		
+		return abbreviatedCellText();
+		
 	}
 
 }

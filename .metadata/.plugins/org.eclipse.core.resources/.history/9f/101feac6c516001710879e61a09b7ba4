@@ -1,0 +1,29 @@
+/*
+ * @author Eric Lam
+@period 2
+@date  9/30/16
+ *
+ */
+
+import java.util.*;
+public class Test {
+
+	public static void main(String[] args) {
+	System.out.println("Whats the name?");
+	Scanner name = new Scanner(System.in);
+	String person = name.nextLine();
+	
+	System.out.println("Hello " + person + "!");
+	
+	System.out.println("Whats the name?");
+	Scanner name2 = new Scanner(System.in);
+	String person2 = name2.nextLine();
+	
+	if(person2.equals("Victoria")){
+		System.out.println(person2 +" go get a knife a shove it up your nose ;)");
+	}else{
+		System.out.println("hi " + person2);
+	}
+	
+	}
+}

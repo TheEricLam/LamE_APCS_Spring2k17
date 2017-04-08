@@ -1,0 +1,18 @@
+/*
+ * @author Eric Lam
+@period 2
+@date  9/30/16
+ *
+ */
+
+import java.util.*;
+public class Test {
+
+	public static void main(String[] args) {
+	System.out.println("Whats your name?");
+	Scanner name = new Scanner(System.in);
+	String person = name.nextLine();
+	
+	System.out.println("Hello " + person);
+	}
+}
